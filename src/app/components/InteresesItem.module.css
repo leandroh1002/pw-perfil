@@ -1,0 +1,59 @@
+.container {
+    position: relative;
+    margin-left: 3rem; /* Equivalent to mx-12 */
+    margin-right: 3rem; /* Equivalent to mx-12 */
+    display: grid;
+  }
+  
+  .container::before {
+    content: '';
+    position: absolute;
+    left: -35px;
+    height: 100%;
+    border-left: 2px solid rgba(0, 0, 0, 0.2); /* Equivalent to border-black/20 */
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .container::before {
+      border-left: 2px solid rgba(255, 255, 255, 0.15); /* Equivalent to dark:border-white/15 */
+    }
+  }
+  
+
+  
+  .leftColumn {
+    position: relative;
+    padding-bottom: 3rem; /* Equivalent to pb-12 */
+    grid-column: span 2 / span 2; /* Equivalent to md:col-span-2 */
+  }
+  
+  .sticky {
+    position: sticky;
+    top: 0;
+  }
+  
+  .bullet {
+    color: #F59E0B; /* Equivalent to text-yellow-400 */
+    position: absolute;
+    left: -48px;
+    border-radius: 9999px; /* Equivalent to rounded-full */
+    font-size: 3rem; /* Equivalent to text-5xl */
+  }
+  
+  .title {
+    font-size: 1.25rem; /* Equivalent to text-xl */
+    font-weight: 700; /* Equivalent to font-bold */
+    color: #F59E0B; /* Equivalent to text-yellow-400 */
+  }
+  
+  .company {
+    font-size: 1.25rem; /* Equivalent to text-xl */
+    font-weight: 600; /* Equivalent to font-semibold */
+    color: #4B5563; /* Equivalent to text-gray-600 */
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .company {
+      color: #FFFFFF; /* Equivalent to dark:text-white */
+    }
+  }

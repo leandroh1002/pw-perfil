@@ -1,0 +1,80 @@
+  .container {
+    margin-top: 1.5rem; 
+    font-size: 1.25rem;
+    line-height: 1.75rem; 
+    color: #D1D5DB; 
+  }
+
+  .formGroup{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  .formGroup label{
+    margin-top: 10px;
+    display: block; 
+    margin-bottom: 0.5rem; 
+    line-height: 1.25rem; 
+  }
+  .formGroup input{
+    display: block; 
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem; 
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    border-radius: 0.5rem; 
+    border-color: transparent; 
+    background: radial-gradient(ellipse at 50% -20%, rgba(48, 43, 214, 0.5), rgb(83 81 80 / 90%));
+    width: 100%; 
+    line-height: 1.25rem; 
+  }
+  .formGroup textarea{
+    display: block; 
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem; 
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    border-radius: 0.5rem; 
+    border-color: transparent; 
+    background: radial-gradient(ellipse at 50% -20%, rgba(48, 43, 214, 0.5), rgb(83 81 80 / 90%));
+    width: 100%; 
+    line-height: 1.25rem; 
+  }
+  .formGroup textarea:focus-within{
+    display: block; 
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem; 
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    border-radius: 0.5rem; 
+    border-color: #9d6b15; 
+    width: 100%; 
+    line-height: 1.25rem; 
+  }
+  .formGroup input::placeholder{
+    color: white; 
+  }
+  .formGroup textarea::placeholder{
+    color: white; 
+  }
+
+  .contactForm{
+    margin: 14px;
+  }
+
+  .styleButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .styleButton button{
+    font-size: 1rem;
+    width: 80px;
+    height: 30px;
+    border-radius: 7px;
+    border: none;
+    background-color: #F59E0B;
+  }
+  .styleButton button:hover{
+    background-color: #d38f1d;
+  }

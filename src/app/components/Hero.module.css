@@ -1,0 +1,45 @@
+.heroContainer {
+    max-width: 40rem; 
+  }
+  
+  .imageContainer {
+    display: flex;
+    gap: 1rem; 
+    margin-bottom: 1rem; 
+  }
+  
+  .roundedFull {
+    border-radius: 9999px; 
+    width: 4rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+    height: 4rem; 
+  }
+  .name {
+    font-size: 2.25rem;
+    line-height: 2.5rem; 
+    font-weight: 700;
+    letter-spacing: -0.015em; 
+    color: #fdd28a;
+    font-size: 3rem; 
+    line-height: 1; 
+    color: #FFFFFF; 
+    color: #fdd28a; 
+
+  }
+  
+  .description {
+    margin-top: 1.5rem; 
+    font-size: 1.25rem;
+    line-height: 1.75rem; 
+    color: #D1D5DB; 
+  }
+
+  .strongDescription {
+    color: #D97706; 
+    font-weight: 600; 
+  }
+  
+  .dark .strongDescription {
+    color: #EAB308;
+  }
+  
